@@ -1,7 +1,7 @@
 
 
 #Dietary Behaviours
-Building a statistical model to understand the effects of Dietary Behaviours on Income. Searching for Instrumental variables exogenious to my model and hypotheses testing against independent variables to test for endogeneity.
+Describing how Dietary Behaviors can effect the total yearly income of an individual. I find that while shopping for groceries, a person’s inclination to check the label of the product prior to purchase can have a 5.68 % effect on Income. I attempt to rule out reverse causation by implementing the Hausman Statistic to compare Instrumental Variables to the Predictive Variable in my model.
 
 #Facebook GAME
 Analyzing business metrics, looking for connections between user events, using collected user data to predict significant effects on user value.
