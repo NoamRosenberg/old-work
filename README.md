@@ -7,7 +7,7 @@ Describing how Dietary Behaviors can effect the total yearly income of an indivi
 Analyzing business metrics, looking for connections between user events, using collected user data to predict significant effects on user value.
 
 # Real-Estate
-Data cleansing, visual analysis and fuzzy matching algorithms.
+Data cleansing, visual analysis and Fuzzy Matching algorithms.
 
 #COMMING SOON
-Predicting the stockmarket using machine learning algorithms.
+Predicting the stockmarket using Machine Learning algorithms.
