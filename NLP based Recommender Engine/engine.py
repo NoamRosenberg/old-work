@@ -30,10 +30,10 @@ class RecommenderEngine:
     			return data
 
 
-		def QueryCoola(query, file = None):
+		def QueryXXXXX(query, file = None):
    
     			session = Session()
-    			response = session.post(data = {'tq': query,}, url = 'https://app.cooladata.com/api/v2/projects/115659/cql/', headers = {'Authorization': 'Token dtQvPVejNcSebX1EkU0AqB2TJRXznIgZiDvDu3HR'},)
+    			response = session.post(data = {'tq': query,}, url = 'https://app.XXXXXX.com/api/v2/projects/115659/cql/', headers = {'Authorization': 'Token dtQvPVejNcSebX1EkU0AqB2TJRXznIgZiDvDu3HR'},)
     			return response.content
 
 		table = json.loads(codecs.decode(QueryCoola(SQLtoURL(query)),'utf-8'))['table']
@@ -99,9 +99,9 @@ class RecommenderEngine:
 			return data
 
 
-		def QueryCoola(query, file = None):
+		def QueryXXXXX(query, file = None):
 			session = Session()
-			response = session.post(data = {'tq': query,}, url = 'https://app.cooladata.com/api/v2/projects/115659/cql/', headers = {'Authorization': 'Token dtQvPVejNcSebX1EkU0AqB2TJRXznIgZiDvDu3HR'},)
+			response = session.post(data = {'tq': query,}, url = 'https://app.XXXXXX.com/api/v2/projects/115659/cql/', headers = {'Authorization': 'Token dtQvPVejNcSebX1EkU0AqB2TJRXznIgZiDvDu3HR'},)
 			return response.content
 		
 
